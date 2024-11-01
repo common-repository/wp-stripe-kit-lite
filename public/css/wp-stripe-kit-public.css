@@ -1,0 +1,100 @@
+/*--
+	Added as style element on shortcode rendering
+	.alh-wsk-lite-pay-btn{
+	.alh-wsk-lite-pay-btn:hover
+	.alh-wsk-lite-pay-btn:active
+--*/
+/*--
+	Center align text
+--*/
+.alh-wsk-lite-center-text{
+	text-align:center;
+}
+/*--
+	Left align text
+--*/
+.alh-wsk-lite-left-text{
+	text-align:left;
+}
+/*--
+	Form rows
+	1. 10px / 16px 0 0 0 ;
+-- */
+.alh-wsk-lite-checkout-fields-row{
+	overflow:hidden;
+	margin:.625em 0 0 0;			/*1*/
+}
+.alh-wsk-lite-checkout-fields-row-bottom{
+	margin-bottom:.625em;
+}
+/*--
+	Container for the checkout button
+--*/
+.alh-wsk-lite-checkout-btn-container{
+	display:none;
+	padding: .625em 0 .625em 0;
+}
+/*--
+	Checkout loading message container
+--*/
+.alh-wsk-lite-checkout-loading-message{
+	display:block;
+}
+/*--
+	Form message containers
+--*/
+.alh-wsk-lite-checkout-message{
+	display:none;
+	font-weight:bold;
+}
+/*--
+	Text style for error messages
+--*/
+.alh-wsk-lite-error-message-text{
+	color:#f00;
+	font-weight:normal;
+}
+.alh-wsk-lite-checkout-fields-cell-1{
+	font-family:arial;
+	font-weight:bold;
+	text-align:left;
+}
+.alh-wsk-lite-checkout-fields-cell-2 input{
+	font-family:arial;
+}
+.alh-wsk-lite-checkout-fields-cell-2{
+		width:100%;
+		float:left;
+		text-align:left;
+}
+/* Apply GT 480px. 30em = 480 px / 16 px*/
+@media only screen and (min-width: 30em){
+	.alh-wsk-lite-checkout-field{
+		width:300px;
+	}
+	.alh-wsk-lite-checkout-fields-cell-1{
+		float:left;
+		padding:.625em .625em 0 0;
+		text-align:right;
+		line-height:1em;
+		width:25%;
+	}
+	.alh-wsk-lite-checkout-fields-cell-2{
+		width:75%;
+	}
+	.alh-wsk-lite-checkout-fields-cell-2 .alh-wsk-lite-postal-code{
+		width:35%;
+	}
+	.alh-wsk-lite-checkout-fields-cell-2 .alh-wsk-lite-state {
+		width:25%;
+	}
+	.alh-wsk-lite-checkout-fields-cell-2 .alh-wsk-lite-phone {
+		width:75%;
+	}
+}
+/* Apply GT 768px. 48em = 768 px / 16 px*/
+@media only screen and (min-width: 48em){
+	.alh-wsk-lite-checkout-btn-container{
+
+	}
+}

@@ -1,0 +1,104 @@
+/* WP dashboard CSS */
+
+.wrap > h2:first-child{
+font-weight:700;
+font-size:32px;
+}
+.alh-wsk-lite-heading-1{
+font-weight:700;
+font-size:22px;
+}
+.alh-wsk-lite-link-button, .alh-wsk-lite-label, .alh-wsk-lite-input-label{
+font-weight:700;
+font-size:16px;
+}
+.alh-wsk-lite-input-label-lh{
+line-height:24px;
+}
+.alh-wsk-lite-input-text-field{
+width:350px;
+font-family:monospace;
+font-weight:normal;
+}
+.alh-wsk-lite-input-textarea-field{
+width:750px;
+height:150px;
+font-family:monospace;
+font-weight:normal;
+}
+/*http://www.cssportal.com/css3-flip-switch//*/
+.alh-wsk-lite-flipswitch {
+  position: relative;
+  width: 86px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select: none;
+}
+.alh-wsk-lite-flipswitch input[type=checkbox] {
+  display: none;
+}
+.alh-wsk-lite-flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #999999;
+  border-radius: 50px;
+}
+.alh-wsk-lite-flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -ms-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+.alh-wsk-lite-flipswitch-inner:before, .alh-wsk-lite-flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 24px;
+  padding: 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.alh-wsk-lite-flipswitch-inner:before {
+  content: "ON";
+  padding-left: 12px;
+  background-color: #36996B;
+  color: #FFFFFF;
+}
+.alh-wsk-lite-flipswitch-inner:after {
+  content: "OFF";
+  padding-right: 12px;
+  background-color: #EBEBEB;
+  color: #888888;
+  text-align: right;
+}
+.alh-wsk-lite-flipswitch-switch {
+  width: 31px;
+  margin: -3.5px;
+  background: #FFFFFF;
+  border: 2px solid #999999;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 59px;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -moz-transition: all 0.3s ease-in 0s;
+  -ms-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+.alh-wsk-lite-flipswitch-cb:checked + .alh-wsk-lite-flipswitch-label .alh-wsk-lite-flipswitch-inner {
+  margin-left: 0;
+}
+.alh-wsk-lite-flipswitch-cb:checked + .alh-wsk-lite-flipswitch-label .alh-wsk-lite-flipswitch-switch {
+  right: 0;
+}
